@@ -1,18 +1,14 @@
 @extends( 'app' )
 
 
-@section( 'content' )
+  @section( 'content' )
 
-      <div class="spacer"></div>
-
-      {{-- @include( 'parts.profile-columns' ) --}}
-      
       <router-view></router-view>
 
-@stop
+  @stop
 
-@section( 'javascripts' )
-  <script type="text/javascript">
-    
-  </script>
-@stop
+  @section( 'javascripts' )
+    <script type="text/javascript">
+      
+    </script>
+  @stop

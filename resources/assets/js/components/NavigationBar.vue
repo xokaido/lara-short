@@ -10,13 +10,11 @@
         <span></span>
       </span>
       <div class="nav-right nav-menu">
-        <a class="nav-item is-tab is-active"> Home </a>
-        <a class="nav-item is-tab"> Features </a>
-        <a class="nav-item is-tab"> Team </a>
-        <a class="nav-item is-tab"> Help </a>
+        <a href="#/" class="nav-item is-tab is-active"> Home </a>
+        <a href="#/" class="nav-item is-tab"> Features </a>
+        <a href="#/" class="nav-item is-tab"> Team </a>
+        <a href="#/" class="nav-item is-tab"> Help </a>
         <span class="nav-item">
-          <a class="button"> Log in </a>
-          <a class="button is-info"> Sign up </a>
           <a class="button is-info" href="/logout"> Sign out </a>
         </span>
       </div>

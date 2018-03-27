@@ -7,7 +7,7 @@
 
     <div class="container profile">
 
-      <profile-heading></profile-heading>
+      <profile-heading :user="{{ Auth::user() }}"></profile-heading>
 
       <profile-options></profile-options>
 
@@ -21,6 +21,8 @@
   <script src="{{ mix('js/app.js') }}" defer></script>
 
   @yield( 'javascripts' )
+  
+  @include( 'parts.footer' )
 
 </body>
 </html>

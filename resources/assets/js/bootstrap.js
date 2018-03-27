@@ -10,6 +10,8 @@ window.axios = axios;
 Vue.use( VueRouter );
 
 window.$  = require('jquery');
+window.Bus = new Vue();
+// export default Bus;
 
 // try
 // {
