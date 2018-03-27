@@ -1,0 +1,19 @@
+
+As a quick test of your PHP and Laravel experience, you will have a couple days to create
+a simple link-shortening app from scratch (similar to bit.ly).
+
+The app should allow a user to register, and create a shortened link, view their previously
+shortened links (with a count of each time the link was clicked on), and delete shortened URLs.
+The app will test your proficiency in PHP and Laravel, specifically some Laravel core concepts
+(creating a few routes, a controller, eloquent model, blade view, form request and basic database
+migration). The site does not have to be pretty, we are looking for functionality - feel free to
+just use bootstrap or similar.
+You can zip that up and send it over, put it in GitHub and optionally host it (not required) 
+Regardless of what happens, we will give you a 5* review for going forward with the test.
+We'll start the test with $40 if you're interested since we estimate this should take 1-2 hours max.
+
+
+1) The app should allow a user to register
+2) Create a shortened link
+3) View their previously shortened links (with a count of each time the link was clicked on)
+4) Delete shortened URLs.
