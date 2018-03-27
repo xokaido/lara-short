@@ -79,9 +79,9 @@
       {
         deleteURL( row )
         {
-          axios.delete( '/urls/' + row.id ).then( response => {
 
-            this.urls.splice( this.urls.indexOf( row ), 1 );
+          axios.delete( '/urls/' + row.id ).then( response => {
+            this.urls.splice( this.urls.findIndex( k => k.id == row.id ) , 1 );
 
             console.log( response.data );
           }).catch( error => {
